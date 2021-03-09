@@ -1,9 +1,9 @@
-const fs = require("fs").promises;
+const fs = require("fs");
 
 const path = require("path");
 
-const contactsPath = path.join("./db", "contacts.json");
-// const contactsPath = path.join(__dirname, "./db/contacts.json");
+// const contactsPath = path.join("./db", "contacts.json");
+const contactsPath = path.join(__dirname, "./db/contacts.json");
 // console.log(contactsPath)
 
 // TODO: задокументировать каждую функцию
